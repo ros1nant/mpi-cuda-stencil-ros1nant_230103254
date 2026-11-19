@@ -8,7 +8,7 @@
 
 **Instructor:** Sufyan bin Uzayr
 
-**Recorded run (UTC):** 2026-11-19T07:34:18.080614+00:00
+**Recorded run (UTC):** 2026-11-19T07:54:50.854609+00:00
 
 ## Method and reproducibility
 
@@ -73,7 +73,7 @@ acknowledgments complete. Dependency or buffer exhaustion can then stall progres
 Not every store creates an RFO: stores while the line remains Modified proceed
 locally, and store buffering can batch ownership intervals.
 
-The measured stride-1 median was **137,933,000 ns**, versus **127,706,900 ns** for
+The measured stride-1 median was **145,349,200 ns**, versus **131,199,300 ns** for
 stride 8. Timing is consistent with a layout effect but does not directly observe
 individual MESI transactions.
 
@@ -81,41 +81,41 @@ individual MESI transactions.
 
 | Layout | Median elapsed (ns) | Aggregate ns/update: time / 240,000,000 | Wall ns/thread iteration: time / 60,000,000 |
 | --- | ---: | ---: | ---: |
-| A: stride 1 (8 B) | 137,933,000 | 0.574720833 | 2.298883333 |
-| B: stride 4 (32 B) | 138,060,800 | 0.575253333 | 2.301013333 |
-| C: stride 8 (64 B) | 127,706,900 | 0.532112083 | 2.128448333 |
-| D: stride 16 (128 B) | 127,770,900 | 0.532378750 | 2.129515000 |
-| Register-private | 56,198,800 | 0.234161667 | 0.936646667 |
+| A: stride 1 (8 B) | 145,349,200 | 0.605621667 | 2.422486667 |
+| B: stride 4 (32 B) | 146,501,600 | 0.610423333 | 2.441693333 |
+| C: stride 8 (64 B) | 131,199,300 | 0.546663750 | 2.186655000 |
+| D: stride 16 (128 B) | 130,845,300 | 0.545188750 | 2.180755000 |
+| Register-private | 58,820,900 | 0.245087083 | 0.980348333 |
 
 Aggregate ns/update is reciprocal throughput across four workers; it is not the
 latency of a single load or store. All raw wall-clock samples are:
 
 | Layout | Repetition | Elapsed (ns) |
 | --- | ---: | ---: |
-| A: stride 1 (8 B) | 1 | 139,052,800 |
-| A: stride 1 (8 B) | 2 | 137,933,000 |
-| A: stride 1 (8 B) | 3 | 134,114,000 |
-| B: stride 4 (32 B) | 1 | 163,694,800 |
-| B: stride 4 (32 B) | 2 | 138,060,800 |
-| B: stride 4 (32 B) | 3 | 132,359,600 |
-| C: stride 8 (64 B) | 1 | 130,620,100 |
-| C: stride 8 (64 B) | 2 | 127,706,900 |
-| C: stride 8 (64 B) | 3 | 124,458,200 |
-| D: stride 16 (128 B) | 1 | 132,317,400 |
-| D: stride 16 (128 B) | 2 | 127,770,900 |
-| D: stride 16 (128 B) | 3 | 123,486,800 |
-| Register-private | 1 | 56,198,800 |
-| Register-private | 2 | 59,055,200 |
-| Register-private | 3 | 54,860,100 |
+| A: stride 1 (8 B) | 1 | 140,952,000 |
+| A: stride 1 (8 B) | 2 | 154,553,600 |
+| A: stride 1 (8 B) | 3 | 145,349,200 |
+| B: stride 4 (32 B) | 1 | 156,021,400 |
+| B: stride 4 (32 B) | 2 | 146,501,600 |
+| B: stride 4 (32 B) | 3 | 142,453,600 |
+| C: stride 8 (64 B) | 1 | 131,171,100 |
+| C: stride 8 (64 B) | 2 | 131,199,300 |
+| C: stride 8 (64 B) | 3 | 133,006,100 |
+| D: stride 16 (128 B) | 1 | 130,784,700 |
+| D: stride 16 (128 B) | 2 | 157,739,600 |
+| D: stride 16 (128 B) | 3 | 130,845,300 |
+| Register-private | 1 | 58,820,900 |
+| Register-private | 2 | 65,203,100 |
+| Register-private | 3 | 58,753,700 |
 
 ```text
-stride-1 / stride-8 = 137933000 / 127706900 = 1.080074765x
-relative difference = 8.007476%
-wall-time difference = 10,226,100 ns
-aggregate difference per update = 0.042608750 ns
-stride-8 / private = 2.272413290x
-stride-1 / private = 2.454376250x
-stride-8 minus private = 71,508,100 ns
+stride-1 / stride-8 = 145349200 / 131199300 = 1.107850423x
+relative difference = 10.785042%
+wall-time difference = 14,149,900 ns
+aggregate difference per update = 0.058957917 ns
+stride-8 / private = 2.230487803x
+stride-1 / private = 2.471046856x
+stride-8 minus private = 72,378,400 ns
 ```
 
 The padded-versus-private difference includes repeated load/store operations,
@@ -133,34 +133,34 @@ synchronization and other process activity and is broader than the kernel window
 
 | Layout | Repetition | Voluntary | Involuntary | Total |
 | --- | ---: | ---: | ---: | ---: |
-| A: stride 1 (8 B) | 1 | unavailable | unavailable | 109 |
-| A: stride 1 (8 B) | 2 | unavailable | unavailable | 419 |
-| A: stride 1 (8 B) | 3 | unavailable | unavailable | 85 |
-| B: stride 4 (32 B) | 1 | unavailable | unavailable | 227 |
-| B: stride 4 (32 B) | 2 | unavailable | unavailable | 104 |
-| B: stride 4 (32 B) | 3 | unavailable | unavailable | 69 |
-| C: stride 8 (64 B) | 1 | unavailable | unavailable | 104 |
-| C: stride 8 (64 B) | 2 | unavailable | unavailable | 134 |
-| C: stride 8 (64 B) | 3 | unavailable | unavailable | 48 |
-| D: stride 16 (128 B) | 1 | unavailable | unavailable | 84 |
-| D: stride 16 (128 B) | 2 | unavailable | unavailable | 85 |
-| D: stride 16 (128 B) | 3 | unavailable | unavailable | 61 |
-| Register-private | 1 | unavailable | unavailable | 63 |
-| Register-private | 2 | unavailable | unavailable | 267 |
-| Register-private | 3 | unavailable | unavailable | 37 |
+| A: stride 1 (8 B) | 1 | unavailable | unavailable | 279 |
+| A: stride 1 (8 B) | 2 | unavailable | unavailable | 232 |
+| A: stride 1 (8 B) | 3 | unavailable | unavailable | 146 |
+| B: stride 4 (32 B) | 1 | unavailable | unavailable | 161 |
+| B: stride 4 (32 B) | 2 | unavailable | unavailable | 100 |
+| B: stride 4 (32 B) | 3 | unavailable | unavailable | 78 |
+| C: stride 8 (64 B) | 1 | unavailable | unavailable | 84 |
+| C: stride 8 (64 B) | 2 | unavailable | unavailable | 103 |
+| C: stride 8 (64 B) | 3 | unavailable | unavailable | 132 |
+| D: stride 16 (128 B) | 1 | unavailable | unavailable | 107 |
+| D: stride 16 (128 B) | 2 | unavailable | unavailable | 154 |
+| D: stride 16 (128 B) | 3 | unavailable | unavailable | 103 |
+| Register-private | 1 | unavailable | unavailable | 48 |
+| Register-private | 2 | unavailable | unavailable | 118 |
+| Register-private | 3 | unavailable | unavailable | 52 |
 
-The minimum four-kernel overlap across all runs is **53,276,200 ns**.
-Summed thread CPU-time / wall-time ratios range from **3.054465** to
-**4.272231**. Overlapping wall intervals support concurrent scheduling;
+The minimum four-kernel overlap across all runs is **54,169,200 ns**.
+Summed thread CPU-time / wall-time ratios range from **2.971670** to
+**4.168277**. Overlapping wall intervals support concurrent scheduling;
 CPU time above one wall-time unit additionally supports parallel execution.
 Thread CPU accounting can be coarse, particularly on Windows, and occasionally
 produce values slightly above four. These are diagnostics, not precise utilization.
 
 ## Q3. L2 spatial prefetcher and 128-byte pairing
 
-Stride 8 measured **127,706,900 ns** and stride 16 measured **127,770,900 ns**.
-The stride-8 / stride-16 ratio is **0.999499103x**. At the median, stride 16 is
-**64,000 ns slower** than stride 8.
+Stride 8 measured **131,199,300 ns** and stride 16 measured **130,845,300 ns**.
+The stride-8 / stride-16 ratio is **1.002705485x**. At the median, stride 16 is
+**354,000 ns faster** than stride 8.
 The median difference is smaller than the observed sample range; these measurements do not establish a repeatable prefetcher benefit.
 
 Intel documents spatial prefetchers that fetch the partner 64-byte line in the
@@ -214,8 +214,8 @@ Python-related code in a full LLVM module belongs to its entry wrapper.
 
 Generated assembly is included. A real memory instruction can still use the
 store buffer or store forwarding; volatility does not force every store to RAM
-or cause a distinct RFO. The padded memory median was **127,706,900 ns** versus
-**56,198,800 ns** for the register baseline.
+or cause a distinct RFO. The padded memory median was **131,199,300 ns** versus
+**58,820,900 ns** for the register baseline.
 
 ## Q5. CPython GIL masking versus nogil=True execution
 
@@ -236,7 +236,7 @@ The two lab kernels use @njit(nogil=True), releasing the GIL during nopython
 machine-code execution. Affinity places workers on separate physical cores, and
 the barriers synchronize them. Native LLVM evidence, overlapping kernel intervals,
 and recorded CPU time support multicore execution. The native stride-1 versus
-stride-8 comparison is **137,933,000 ns versus 127,706,900 ns** with identical work.
+stride-8 comparison is **145,349,200 ns versus 131,199,300 ns** with identical work.
 No pure-Python control timing was measured or invented.
 
 See the [Numba compilation documentation](https://numba.readthedocs.io/en/stable/user/jit.html#nogil)

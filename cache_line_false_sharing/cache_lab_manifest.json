@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "created_at_utc": "2026-11-19T07:34:18.080614+00:00",
+  "created_at_utc": "2026-11-19T07:54:50.854609+00:00",
   "context": {
     "student_name": "Ainabek Aisultan",
     "student_id": "230103254",
@@ -125,16 +125,16 @@
       "spacing_bytes": 8,
       "iterations_per_thread": 60000000,
       "total_updates": 240000000,
-      "elapsed_ns": 139052800,
-      "aggregate_ns_per_update": 0.5793866666666667,
-      "elapsed_ns_per_thread_iteration": 2.317546666666667,
+      "elapsed_ns": 140952000,
+      "aggregate_ns_per_update": 0.5873,
+      "elapsed_ns_per_thread_iteration": 2.3492,
       "context_switches": {
         "voluntary": null,
         "involuntary": null,
-        "total": 109,
+        "total": 279,
         "source": "psutil Windows total; resource unavailable"
       },
-      "buffer_address": 1476098733312,
+      "buffer_address": 2007877319808,
       "alignment_bytes": 128,
       "slot_indices": [
         0,
@@ -143,16 +143,16 @@
         3
       ],
       "slot_addresses": [
-        1476098733312,
-        1476098733320,
-        1476098733328,
-        1476098733336
+        2007877319808,
+        2007877319816,
+        2007877319824,
+        2007877319832
       ],
       "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042708,
-        23064042708
+        31373083122,
+        31373083122,
+        31373083122,
+        31373083122
       ],
       "relative_cache_lines": [
         0,
@@ -177,52 +177,52 @@
       "workers": [
         {
           "thread": 0,
-          "native_thread_id": 29436,
+          "native_thread_id": 42716,
           "logical_cpu": 0,
           "affinity_mask": 1,
           "affinity_applied": true,
           "seed": 717810019771725877,
-          "kernel_start_ns": 429289793501200,
-          "kernel_end_ns": 429289932123300,
-          "thread_cpu_ns": 109375000
+          "kernel_start_ns": 430522490857700,
+          "kernel_end_ns": 430522628034600,
+          "thread_cpu_ns": 140625000
         },
         {
           "thread": 1,
-          "native_thread_id": 14092,
+          "native_thread_id": 75312,
           "logical_cpu": 2,
           "affinity_mask": 4,
           "affinity_applied": true,
           "seed": 3424965756971044384,
-          "kernel_start_ns": 429289793434200,
-          "kernel_end_ns": 429289923626600,
+          "kernel_start_ns": 430522490908500,
+          "kernel_end_ns": 430522631486900,
           "thread_cpu_ns": 140625000
         },
         {
           "thread": 2,
-          "native_thread_id": 7160,
+          "native_thread_id": 37604,
           "logical_cpu": 4,
           "affinity_mask": 16,
           "affinity_applied": true,
           "seed": 14499890255751242485,
-          "kernel_start_ns": 429289793402700,
-          "kernel_end_ns": 429289923771200,
+          "kernel_start_ns": 430522490981900,
+          "kernel_end_ns": 430522620349000,
           "thread_cpu_ns": 125000000
         },
         {
           "thread": 3,
-          "native_thread_id": 50732,
+          "native_thread_id": 21676,
           "logical_cpu": 6,
           "affinity_mask": 64,
           "affinity_applied": true,
           "seed": 18085143842637287777,
-          "kernel_start_ns": 429289793094100,
-          "kernel_end_ns": 429289925417700,
-          "thread_cpu_ns": 140625000
+          "kernel_start_ns": 430522490554300,
+          "kernel_end_ns": 430522624330300,
+          "thread_cpu_ns": 109375000
         }
       ],
-      "all_four_kernel_intervals_overlap_ns": 130125400,
+      "all_four_kernel_intervals_overlap_ns": 129367100,
       "sum_thread_cpu_ns": 515625000,
-      "cpu_time_to_wall_ratio": 3.7081238205918905
+      "cpu_time_to_wall_ratio": 3.6581602247573644
     },
     {
       "layout": "stride_4",
@@ -231,16 +231,16 @@
       "spacing_bytes": 32,
       "iterations_per_thread": 60000000,
       "total_updates": 240000000,
-      "elapsed_ns": 163694800,
-      "aggregate_ns_per_update": 0.6820616666666667,
-      "elapsed_ns_per_thread_iteration": 2.7282466666666667,
+      "elapsed_ns": 156021400,
+      "aggregate_ns_per_update": 0.6500891666666667,
+      "elapsed_ns_per_thread_iteration": 2.600356666666667,
       "context_switches": {
         "voluntary": null,
         "involuntary": null,
-        "total": 227,
+        "total": 161,
         "source": "psutil Windows total; resource unavailable"
       },
-      "buffer_address": 1476098733312,
+      "buffer_address": 2007877319808,
       "alignment_bytes": 128,
       "slot_indices": [
         0,
@@ -249,16 +249,16 @@
         12
       ],
       "slot_addresses": [
-        1476098733312,
-        1476098733344,
-        1476098733376,
-        1476098733408
+        2007877319808,
+        2007877319840,
+        2007877319872,
+        2007877319904
       ],
       "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042709,
-        23064042709
+        31373083122,
+        31373083122,
+        31373083123,
+        31373083123
       ],
       "relative_cache_lines": [
         0,
@@ -283,52 +283,52 @@
       "workers": [
         {
           "thread": 0,
-          "native_thread_id": 12100,
+          "native_thread_id": 43620,
           "logical_cpu": 0,
           "affinity_mask": 1,
           "affinity_applied": true,
           "seed": 717810019771725877,
-          "kernel_start_ns": 429289983118300,
-          "kernel_end_ns": 429290146666500,
-          "thread_cpu_ns": 93750000
+          "kernel_start_ns": 430522664696900,
+          "kernel_end_ns": 430522809490400,
+          "thread_cpu_ns": 140625000
         },
         {
           "thread": 1,
-          "native_thread_id": 58884,
+          "native_thread_id": 23148,
           "logical_cpu": 2,
           "affinity_mask": 4,
           "affinity_applied": true,
           "seed": 3424965756971044384,
-          "kernel_start_ns": 429289983065900,
-          "kernel_end_ns": 429290117350800,
+          "kernel_start_ns": 430522653550800,
+          "kernel_end_ns": 430522792639100,
           "thread_cpu_ns": 140625000
         },
         {
           "thread": 2,
-          "native_thread_id": 64408,
+          "native_thread_id": 27076,
           "logical_cpu": 4,
           "affinity_mask": 16,
           "affinity_applied": true,
           "seed": 14499890255751242485,
-          "kernel_start_ns": 429289983040300,
-          "kernel_end_ns": 429290116827100,
+          "kernel_start_ns": 430522654533200,
+          "kernel_end_ns": 430522789022300,
           "thread_cpu_ns": 140625000
         },
         {
           "thread": 3,
-          "native_thread_id": 9704,
+          "native_thread_id": 49692,
           "logical_cpu": 6,
           "affinity_mask": 64,
           "affinity_applied": true,
           "seed": 18085143842637287777,
-          "kernel_start_ns": 429289982996800,
-          "kernel_end_ns": 429290121915800,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430522653487400,
+          "kernel_end_ns": 430522787973800,
+          "thread_cpu_ns": 140625000
         }
       ],
-      "all_four_kernel_intervals_overlap_ns": 133708800,
-      "sum_thread_cpu_ns": 500000000,
-      "cpu_time_to_wall_ratio": 3.0544647722468885
+      "all_four_kernel_intervals_overlap_ns": 123276900,
+      "sum_thread_cpu_ns": 562500000,
+      "cpu_time_to_wall_ratio": 3.605274661040088
     },
     {
       "layout": "stride_8",
@@ -337,122 +337,122 @@
       "spacing_bytes": 64,
       "iterations_per_thread": 60000000,
       "total_updates": 240000000,
-      "elapsed_ns": 130620100,
-      "aggregate_ns_per_update": 0.5442504166666666,
-      "elapsed_ns_per_thread_iteration": 2.1770016666666665,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 104,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        8,
-        16,
-        24
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
-      ],
-      "relative_cache_lines": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 55176,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429290168075900,
-          "kernel_end_ns": 429290298652300,
-          "thread_cpu_ns": 93750000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 19484,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429290168137900,
-          "kernel_end_ns": 429290289674100,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 47348,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429290168100100,
-          "kernel_end_ns": 429290289418700,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 76096,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429290168045300,
-          "kernel_end_ns": 429290290402400,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 121280800,
-      "sum_thread_cpu_ns": 468750000,
-      "cpu_time_to_wall_ratio": 3.5886513637640762
-    },
-    {
-      "layout": "stride_16",
-      "repetition": 0,
-      "stride_elements": 16,
-      "spacing_bytes": 128,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 132317400,
-      "aggregate_ns_per_update": 0.5513225,
-      "elapsed_ns_per_thread_iteration": 2.20529,
+      "elapsed_ns": 131171100,
+      "aggregate_ns_per_update": 0.54654625,
+      "elapsed_ns_per_thread_iteration": 2.186185,
       "context_switches": {
         "voluntary": null,
         "involuntary": null,
         "total": 84,
         "source": "psutil Windows total; resource unavailable"
       },
-      "buffer_address": 1476098733312,
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
+      ],
+      "relative_cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 21112,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430522829208500,
+          "kernel_end_ns": 430522960182800,
+          "thread_cpu_ns": 109375000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 50616,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430522829080700,
+          "kernel_end_ns": 430522952927900,
+          "thread_cpu_ns": 109375000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 64300,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430522829174300,
+          "kernel_end_ns": 430522953655500,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 50612,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430522829026000,
+          "kernel_end_ns": 430522953577200,
+          "thread_cpu_ns": 109375000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 123719400,
+      "sum_thread_cpu_ns": 453125000,
+      "cpu_time_to_wall_ratio": 3.454457574877393
+    },
+    {
+      "layout": "stride_16",
+      "repetition": 0,
+      "stride_elements": 16,
+      "spacing_bytes": 128,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 130784700,
+      "aggregate_ns_per_update": 0.54493625,
+      "elapsed_ns_per_thread_iteration": 2.179745,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 107,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
       "alignment_bytes": 128,
       "slot_indices": [
         0,
@@ -461,16 +461,16 @@
         48
       ],
       "slot_addresses": [
-        1476098733312,
-        1476098733440,
-        1476098733568,
-        1476098733696
+        2007877319808,
+        2007877319936,
+        2007877320064,
+        2007877320192
       ],
       "cache_line_indices": [
-        23064042708,
-        23064042710,
-        23064042712,
-        23064042714
+        31373083122,
+        31373083124,
+        31373083126,
+        31373083128
       ],
       "relative_cache_lines": [
         0,
@@ -495,52 +495,52 @@
       "workers": [
         {
           "thread": 0,
-          "native_thread_id": 57668,
+          "native_thread_id": 25128,
           "logical_cpu": 0,
           "affinity_mask": 1,
           "affinity_applied": true,
           "seed": 717810019771725877,
-          "kernel_start_ns": 429290319408900,
-          "kernel_end_ns": 429290451687700,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430522977874200,
+          "kernel_end_ns": 430523108542400,
+          "thread_cpu_ns": 78125000
         },
         {
           "thread": 1,
-          "native_thread_id": 36016,
+          "native_thread_id": 33972,
           "logical_cpu": 2,
           "affinity_mask": 4,
           "affinity_applied": true,
           "seed": 3424965756971044384,
-          "kernel_start_ns": 429290319546100,
-          "kernel_end_ns": 429290446685900,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430522977831600,
+          "kernel_end_ns": 430523101311200,
+          "thread_cpu_ns": 109375000
         },
         {
           "thread": 2,
-          "native_thread_id": 13416,
+          "native_thread_id": 53584,
           "logical_cpu": 4,
           "affinity_mask": 16,
           "affinity_applied": true,
           "seed": 14499890255751242485,
-          "kernel_start_ns": 429290319459700,
-          "kernel_end_ns": 429290447304000,
+          "kernel_start_ns": 430522977854300,
+          "kernel_end_ns": 430523101550900,
           "thread_cpu_ns": 125000000
         },
         {
           "thread": 3,
-          "native_thread_id": 38160,
+          "native_thread_id": 70616,
           "logical_cpu": 6,
           "affinity_mask": 64,
           "affinity_applied": true,
           "seed": 18085143842637287777,
-          "kernel_start_ns": 429290319437000,
-          "kernel_end_ns": 429290448723300,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430522977782900,
+          "kernel_end_ns": 430523101570300,
+          "thread_cpu_ns": 109375000
         }
       ],
-      "all_four_kernel_intervals_overlap_ns": 127139800,
-      "sum_thread_cpu_ns": 500000000,
-      "cpu_time_to_wall_ratio": 3.778792509526336
+      "all_four_kernel_intervals_overlap_ns": 123437000,
+      "sum_thread_cpu_ns": 421875000,
+      "cpu_time_to_wall_ratio": 3.2257213573147316
     },
     {
       "layout": "private",
@@ -549,652 +549,16 @@
       "spacing_bytes": 64,
       "iterations_per_thread": 60000000,
       "total_updates": 240000000,
-      "elapsed_ns": 56198800,
-      "aggregate_ns_per_update": 0.23416166666666666,
-      "elapsed_ns_per_thread_iteration": 0.9366466666666666,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 63,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        8,
-        16,
-        24
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
-      ],
-      "relative_cache_lines": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 48432,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429290473805300,
-          "kernel_end_ns": 429290528708900,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 69716,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429290473855200,
-          "kernel_end_ns": 429290528757500,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 36192,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429290473830300,
-          "kernel_end_ns": 429290528271900,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 54896,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429290473747300,
-          "kernel_end_ns": 429290529924900,
-          "thread_cpu_ns": 46875000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 54416700,
-      "sum_thread_cpu_ns": 187500000,
-      "cpu_time_to_wall_ratio": 3.3363701716050875
-    },
-    {
-      "layout": "stride_4",
-      "repetition": 1,
-      "stride_elements": 4,
-      "spacing_bytes": 32,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 138060800,
-      "aggregate_ns_per_update": 0.5752533333333333,
-      "elapsed_ns_per_thread_iteration": 2.301013333333333,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 104,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        4,
-        8,
-        12
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733344,
-        1476098733376,
-        1476098733408
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042709,
-        23064042709
-      ],
-      "relative_cache_lines": [
-        0,
-        0,
-        1,
-        1
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 20552,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429290549649200,
-          "kernel_end_ns": 429290687647400,
-          "thread_cpu_ns": 78125000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 37276,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429290549672500,
-          "kernel_end_ns": 429290678601500,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 77528,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429290549772600,
-          "kernel_end_ns": 429290680217300,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 12948,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429290549599300,
-          "kernel_end_ns": 429290679885000,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 128828900,
-      "sum_thread_cpu_ns": 453125000,
-      "cpu_time_to_wall_ratio": 3.2820684799740403
-    },
-    {
-      "layout": "stride_8",
-      "repetition": 1,
-      "stride_elements": 8,
-      "spacing_bytes": 64,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 127706900,
-      "aggregate_ns_per_update": 0.5321120833333334,
-      "elapsed_ns_per_thread_iteration": 2.1284483333333335,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 134,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        8,
-        16,
-        24
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
-      ],
-      "relative_cache_lines": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 50436,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429290707621700,
-          "kernel_end_ns": 429290835272200,
-          "thread_cpu_ns": 78125000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 74556,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429290707673400,
-          "kernel_end_ns": 429290828566700,
-          "thread_cpu_ns": 109375000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 68860,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429290707651500,
-          "kernel_end_ns": 429290828267400,
-          "thread_cpu_ns": 109375000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 41888,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429290707581100,
-          "kernel_end_ns": 429290830442800,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 120594000,
-      "sum_thread_cpu_ns": 421875000,
-      "cpu_time_to_wall_ratio": 3.3034628512633226
-    },
-    {
-      "layout": "stride_16",
-      "repetition": 1,
-      "stride_elements": 16,
-      "spacing_bytes": 128,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 127770900,
-      "aggregate_ns_per_update": 0.53237875,
-      "elapsed_ns_per_thread_iteration": 2.129515,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 85,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        16,
-        32,
-        48
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733440,
-        1476098733568,
-        1476098733696
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042710,
-        23064042712,
-        23064042714
-      ],
-      "relative_cache_lines": [
-        0,
-        2,
-        4,
-        6
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 51492,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429290855106600,
-          "kernel_end_ns": 429290980892400,
-          "thread_cpu_ns": 93750000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 36180,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429290855151100,
-          "kernel_end_ns": 429290975183300,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 60048,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429290855130700,
-          "kernel_end_ns": 429290982830200,
-          "thread_cpu_ns": 109375000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 13160,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429290855072700,
-          "kernel_end_ns": 429290976083900,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 120032200,
-      "sum_thread_cpu_ns": 453125000,
-      "cpu_time_to_wall_ratio": 3.5463865402842116
-    },
-    {
-      "layout": "private",
-      "repetition": 1,
-      "stride_elements": 8,
-      "spacing_bytes": 64,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 59055200,
-      "aggregate_ns_per_update": 0.24606333333333333,
-      "elapsed_ns_per_thread_iteration": 0.9842533333333333,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 267,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        8,
-        16,
-        24
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
-      ],
-      "relative_cache_lines": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 76176,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429291002488700,
-          "kernel_end_ns": 429291061496200,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 38972,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429291002536400,
-          "kernel_end_ns": 429291057194300,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 12696,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429291002510400,
-          "kernel_end_ns": 429291056624000,
-          "thread_cpu_ns": 46875000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 59228,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429291002455700,
-          "kernel_end_ns": 429291056901600,
-          "thread_cpu_ns": 46875000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 54087600,
-      "sum_thread_cpu_ns": 187500000,
-      "cpu_time_to_wall_ratio": 3.1749955973394384
-    },
-    {
-      "layout": "stride_1",
-      "repetition": 1,
-      "stride_elements": 1,
-      "spacing_bytes": 8,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 137933000,
-      "aggregate_ns_per_update": 0.5747208333333333,
-      "elapsed_ns_per_thread_iteration": 2.2988833333333334,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 419,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733320,
-        1476098733328,
-        1476098733336
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042708,
-        23064042708
-      ],
-      "relative_cache_lines": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 14888,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429291082548200,
-          "kernel_end_ns": 429291220382300,
-          "thread_cpu_ns": 109375000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 73076,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429291082525100,
-          "kernel_end_ns": 429291212098500,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 32756,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429291082570300,
-          "kernel_end_ns": 429291211480900,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 54904,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429291082463500,
-          "kernel_end_ns": 429291212207500,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 128910600,
-      "sum_thread_cpu_ns": 484375000,
-      "cpu_time_to_wall_ratio": 3.511668708720901
-    },
-    {
-      "layout": "stride_8",
-      "repetition": 2,
-      "stride_elements": 8,
-      "spacing_bytes": 64,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 124458200,
-      "aggregate_ns_per_update": 0.5185758333333333,
-      "elapsed_ns_per_thread_iteration": 2.0743033333333334,
+      "elapsed_ns": 58820900,
+      "aggregate_ns_per_update": 0.24508708333333334,
+      "elapsed_ns_per_thread_iteration": 0.9803483333333334,
       "context_switches": {
         "voluntary": null,
         "involuntary": null,
         "total": 48,
         "source": "psutil Windows total; resource unavailable"
       },
-      "buffer_address": 1476098733312,
+      "buffer_address": 2007877319808,
       "alignment_bytes": 128,
       "slot_indices": [
         0,
@@ -1203,16 +567,16 @@
         24
       ],
       "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
       ],
       "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
       ],
       "relative_cache_lines": [
         0,
@@ -1237,388 +601,70 @@
       "workers": [
         {
           "thread": 0,
-          "native_thread_id": 39316,
+          "native_thread_id": 52528,
           "logical_cpu": 0,
           "affinity_mask": 1,
           "affinity_applied": true,
           "seed": 717810019771725877,
-          "kernel_start_ns": 429291242456300,
-          "kernel_end_ns": 429291366810300,
-          "thread_cpu_ns": 93750000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 48484,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429291242410200,
-          "kernel_end_ns": 429291361996400,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 21588,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429291242434900,
-          "kernel_end_ns": 429291361776800,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 25188,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429291242375000,
-          "kernel_end_ns": 429291361700200,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 119243900,
-      "sum_thread_cpu_ns": 468750000,
-      "cpu_time_to_wall_ratio": 3.7663247580312107
-    },
-    {
-      "layout": "stride_16",
-      "repetition": 2,
-      "stride_elements": 16,
-      "spacing_bytes": 128,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 123486800,
-      "aggregate_ns_per_update": 0.5145283333333334,
-      "elapsed_ns_per_thread_iteration": 2.0581133333333335,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 61,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        16,
-        32,
-        48
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733440,
-        1476098733568,
-        1476098733696
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042710,
-        23064042712,
-        23064042714
-      ],
-      "relative_cache_lines": [
-        0,
-        2,
-        4,
-        6
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 48332,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429291386252800,
-          "kernel_end_ns": 429291509668900,
-          "thread_cpu_ns": 93750000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 38620,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429291386273200,
-          "kernel_end_ns": 429291505553800,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 9016,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429291386231600,
-          "kernel_end_ns": 429291504811700,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 76044,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429291386203700,
-          "kernel_end_ns": 429291505078100,
-          "thread_cpu_ns": 125000000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 118538500,
-      "sum_thread_cpu_ns": 468750000,
-      "cpu_time_to_wall_ratio": 3.795952279919797
-    },
-    {
-      "layout": "private",
-      "repetition": 2,
-      "stride_elements": 8,
-      "spacing_bytes": 64,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 54860100,
-      "aggregate_ns_per_update": 0.22858375,
-      "elapsed_ns_per_thread_iteration": 0.914335,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 37,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        8,
-        16,
-        24
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733376,
-        1476098733440,
-        1476098733504
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042709,
-        23064042710,
-        23064042711
-      ],
-      "relative_cache_lines": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 12612,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429291529896800,
-          "kernel_end_ns": 429291584694100,
+          "kernel_start_ns": 430523129882700,
+          "kernel_end_ns": 430523188220600,
           "thread_cpu_ns": 62500000
         },
         {
           "thread": 1,
-          "native_thread_id": 39288,
+          "native_thread_id": 68144,
           "logical_cpu": 2,
           "affinity_mask": 4,
           "affinity_applied": true,
           "seed": 3424965756971044384,
-          "kernel_start_ns": 429291529979000,
-          "kernel_end_ns": 429291583255200,
-          "thread_cpu_ns": 62500000
+          "kernel_start_ns": 430523129490100,
+          "kernel_end_ns": 430523184570200,
+          "thread_cpu_ns": 46875000
         },
         {
           "thread": 2,
-          "native_thread_id": 11860,
+          "native_thread_id": 60776,
           "logical_cpu": 4,
           "affinity_mask": 16,
           "affinity_applied": true,
           "seed": 14499890255751242485,
-          "kernel_start_ns": 429291529952300,
-          "kernel_end_ns": 429291583976400,
+          "kernel_start_ns": 430523129463000,
+          "kernel_end_ns": 430523184221000,
           "thread_cpu_ns": 46875000
         },
         {
           "thread": 3,
-          "native_thread_id": 16248,
+          "native_thread_id": 55712,
           "logical_cpu": 6,
           "affinity_mask": 64,
           "affinity_applied": true,
           "seed": 18085143842637287777,
-          "kernel_start_ns": 429291529851000,
-          "kernel_end_ns": 429291584051200,
-          "thread_cpu_ns": 62500000
+          "kernel_start_ns": 430523129429600,
+          "kernel_end_ns": 430523184757600,
+          "thread_cpu_ns": 46875000
         }
       ],
-      "all_four_kernel_intervals_overlap_ns": 53276200,
-      "sum_thread_cpu_ns": 234375000,
-      "cpu_time_to_wall_ratio": 4.272230637567193
-    },
-    {
-      "layout": "stride_1",
-      "repetition": 2,
-      "stride_elements": 1,
-      "spacing_bytes": 8,
-      "iterations_per_thread": 60000000,
-      "total_updates": 240000000,
-      "elapsed_ns": 134114000,
-      "aggregate_ns_per_update": 0.5588083333333334,
-      "elapsed_ns_per_thread_iteration": 2.2352333333333334,
-      "context_switches": {
-        "voluntary": null,
-        "involuntary": null,
-        "total": 85,
-        "source": "psutil Windows total; resource unavailable"
-      },
-      "buffer_address": 1476098733312,
-      "alignment_bytes": 128,
-      "slot_indices": [
-        0,
-        1,
-        2,
-        3
-      ],
-      "slot_addresses": [
-        1476098733312,
-        1476098733320,
-        1476098733328,
-        1476098733336
-      ],
-      "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042708,
-        23064042708
-      ],
-      "relative_cache_lines": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "final_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "expected_values": [
-        11728436330833416448,
-        14589801440730549504,
-        278312573438284032,
-        11708582284052155648
-      ],
-      "parity_passed": true,
-      "untouched_slots_passed": true,
-      "workers": [
-        {
-          "thread": 0,
-          "native_thread_id": 13032,
-          "logical_cpu": 0,
-          "affinity_mask": 1,
-          "affinity_applied": true,
-          "seed": 717810019771725877,
-          "kernel_start_ns": 429291604968500,
-          "kernel_end_ns": 429291737515800,
-          "thread_cpu_ns": 140625000
-        },
-        {
-          "thread": 1,
-          "native_thread_id": 31364,
-          "logical_cpu": 2,
-          "affinity_mask": 4,
-          "affinity_applied": true,
-          "seed": 3424965756971044384,
-          "kernel_start_ns": 429291604944800,
-          "kernel_end_ns": 429291732611700,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 2,
-          "native_thread_id": 47908,
-          "logical_cpu": 4,
-          "affinity_mask": 16,
-          "affinity_applied": true,
-          "seed": 14499890255751242485,
-          "kernel_start_ns": 429291604989400,
-          "kernel_end_ns": 429291738994400,
-          "thread_cpu_ns": 125000000
-        },
-        {
-          "thread": 3,
-          "native_thread_id": 9708,
-          "logical_cpu": 6,
-          "affinity_mask": 64,
-          "affinity_applied": true,
-          "seed": 18085143842637287777,
-          "kernel_start_ns": 429291604905800,
-          "kernel_end_ns": 429291738935600,
-          "thread_cpu_ns": 140625000
-        }
-      ],
-      "all_four_kernel_intervals_overlap_ns": 127622300,
-      "sum_thread_cpu_ns": 531250000,
-      "cpu_time_to_wall_ratio": 3.9611822777636934
+      "all_four_kernel_intervals_overlap_ns": 54338300,
+      "sum_thread_cpu_ns": 203125000,
+      "cpu_time_to_wall_ratio": 3.453279361587463
     },
     {
       "layout": "stride_4",
-      "repetition": 2,
+      "repetition": 1,
       "stride_elements": 4,
       "spacing_bytes": 32,
       "iterations_per_thread": 60000000,
       "total_updates": 240000000,
-      "elapsed_ns": 132359600,
-      "aggregate_ns_per_update": 0.5514983333333333,
-      "elapsed_ns_per_thread_iteration": 2.2059933333333333,
+      "elapsed_ns": 146501600,
+      "aggregate_ns_per_update": 0.6104233333333333,
+      "elapsed_ns_per_thread_iteration": 2.4416933333333333,
       "context_switches": {
         "voluntary": null,
         "involuntary": null,
-        "total": 69,
+        "total": 100,
         "source": "psutil Windows total; resource unavailable"
       },
-      "buffer_address": 1476098733312,
+      "buffer_address": 2007877319808,
       "alignment_bytes": 128,
       "slot_indices": [
         0,
@@ -1627,16 +673,16 @@
         12
       ],
       "slot_addresses": [
-        1476098733312,
-        1476098733344,
-        1476098733376,
-        1476098733408
+        2007877319808,
+        2007877319840,
+        2007877319872,
+        2007877319904
       ],
       "cache_line_indices": [
-        23064042708,
-        23064042708,
-        23064042709,
-        23064042709
+        31373083122,
+        31373083122,
+        31373083123,
+        31373083123
       ],
       "relative_cache_lines": [
         0,
@@ -1661,97 +707,1051 @@
       "workers": [
         {
           "thread": 0,
-          "native_thread_id": 36528,
+          "native_thread_id": 18800,
           "logical_cpu": 0,
           "affinity_mask": 1,
           "affinity_applied": true,
           "seed": 717810019771725877,
-          "kernel_start_ns": 429291759227100,
-          "kernel_end_ns": 429291891279000,
-          "thread_cpu_ns": 93750000
+          "kernel_start_ns": 430523206843200,
+          "kernel_end_ns": 430523353216700,
+          "thread_cpu_ns": 125000000
         },
         {
           "thread": 1,
-          "native_thread_id": 25348,
+          "native_thread_id": 72928,
           "logical_cpu": 2,
           "affinity_mask": 4,
           "affinity_applied": true,
           "seed": 3424965756971044384,
-          "kernel_start_ns": 429291759000300,
-          "kernel_end_ns": 429291886413700,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430523206791000,
+          "kernel_end_ns": 430523343507300,
+          "thread_cpu_ns": 109375000
         },
         {
           "thread": 2,
-          "native_thread_id": 14244,
+          "native_thread_id": 77400,
           "logical_cpu": 4,
           "affinity_mask": 16,
           "affinity_applied": true,
           "seed": 14499890255751242485,
-          "kernel_start_ns": 429291759022000,
-          "kernel_end_ns": 429291886588800,
-          "thread_cpu_ns": 125000000
+          "kernel_start_ns": 430523206813500,
+          "kernel_end_ns": 430523345853700,
+          "thread_cpu_ns": 140625000
         },
         {
           "thread": 3,
-          "native_thread_id": 56528,
+          "native_thread_id": 53028,
           "logical_cpu": 6,
           "affinity_mask": 64,
           "affinity_applied": true,
           "seed": 18085143842637287777,
-          "kernel_start_ns": 429291758939300,
-          "kernel_end_ns": 429291887227100,
+          "kernel_start_ns": 430523206730700,
+          "kernel_end_ns": 430523348057000,
+          "thread_cpu_ns": 140625000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 136664100,
+      "sum_thread_cpu_ns": 515625000,
+      "cpu_time_to_wall_ratio": 3.5195861342128687
+    },
+    {
+      "layout": "stride_8",
+      "repetition": 1,
+      "stride_elements": 8,
+      "spacing_bytes": 64,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 131199300,
+      "aggregate_ns_per_update": 0.54666375,
+      "elapsed_ns_per_thread_iteration": 2.186655,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 103,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
+      ],
+      "relative_cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 29688,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430523374605300,
+          "kernel_end_ns": 430523502066800,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 54632,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430523374637900,
+          "kernel_end_ns": 430523502646800,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 37964,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430523374660200,
+          "kernel_end_ns": 430523502030200,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 35100,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430523374568800,
+          "kernel_end_ns": 430523505746300,
           "thread_cpu_ns": 125000000
         }
       ],
-      "all_four_kernel_intervals_overlap_ns": 127186600,
+      "all_four_kernel_intervals_overlap_ns": 127370000,
+      "sum_thread_cpu_ns": 546875000,
+      "cpu_time_to_wall_ratio": 4.168276812452506
+    },
+    {
+      "layout": "stride_16",
+      "repetition": 1,
+      "stride_elements": 16,
+      "spacing_bytes": 128,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 157739600,
+      "aggregate_ns_per_update": 0.6572483333333333,
+      "elapsed_ns_per_thread_iteration": 2.6289933333333333,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 154,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319936,
+        2007877320064,
+        2007877320192
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083124,
+        31373083126,
+        31373083128
+      ],
+      "relative_cache_lines": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 33364,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430523535334200,
+          "kernel_end_ns": 430523692376900,
+          "thread_cpu_ns": 109375000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 46668,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430523534694000,
+          "kernel_end_ns": 430523658983700,
+          "thread_cpu_ns": 109375000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 57452,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430523534729700,
+          "kernel_end_ns": 430523657915300,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 49620,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430523534656000,
+          "kernel_end_ns": 430523660557900,
+          "thread_cpu_ns": 125000000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 122581100,
       "sum_thread_cpu_ns": 468750000,
-      "cpu_time_to_wall_ratio": 3.541488490445725
+      "cpu_time_to_wall_ratio": 2.971669764599378
+    },
+    {
+      "layout": "private",
+      "repetition": 1,
+      "stride_elements": 8,
+      "spacing_bytes": 64,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 65203100,
+      "aggregate_ns_per_update": 0.2716795833333333,
+      "elapsed_ns_per_thread_iteration": 1.0867183333333332,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 118,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
+      ],
+      "relative_cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 62656,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430523714653600,
+          "kernel_end_ns": 430523779413000,
+          "thread_cpu_ns": 62500000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 63116,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430523714259600,
+          "kernel_end_ns": 430523770258600,
+          "thread_cpu_ns": 62500000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 69636,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430523714305900,
+          "kernel_end_ns": 430523769255700,
+          "thread_cpu_ns": 62500000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 50876,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430523714229400,
+          "kernel_end_ns": 430523772700800,
+          "thread_cpu_ns": 62500000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 54602100,
+      "sum_thread_cpu_ns": 250000000,
+      "cpu_time_to_wall_ratio": 3.834173528559225
+    },
+    {
+      "layout": "stride_1",
+      "repetition": 1,
+      "stride_elements": 1,
+      "spacing_bytes": 8,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 154553600,
+      "aggregate_ns_per_update": 0.6439733333333333,
+      "elapsed_ns_per_thread_iteration": 2.575893333333333,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 232,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319816,
+        2007877319824,
+        2007877319832
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083122,
+        31373083122,
+        31373083122
+      ],
+      "relative_cache_lines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 54996,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430523808721300,
+          "kernel_end_ns": 430523957467100,
+          "thread_cpu_ns": 109375000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 69616,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430523808764000,
+          "kernel_end_ns": 430523960745800,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 18696,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430523810637400,
+          "kernel_end_ns": 430523940523900,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 26964,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430523806216800,
+          "kernel_end_ns": 430523937895400,
+          "thread_cpu_ns": 125000000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 127258000,
+      "sum_thread_cpu_ns": 500000000,
+      "cpu_time_to_wall_ratio": 3.2351236076027994
+    },
+    {
+      "layout": "stride_8",
+      "repetition": 2,
+      "stride_elements": 8,
+      "spacing_bytes": 64,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 133006100,
+      "aggregate_ns_per_update": 0.5541920833333334,
+      "elapsed_ns_per_thread_iteration": 2.2167683333333335,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 132,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
+      ],
+      "relative_cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 43420,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430523980408700,
+          "kernel_end_ns": 430524113279700,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 67556,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430523980344900,
+          "kernel_end_ns": 430524104298200,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 72392,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430523980289100,
+          "kernel_end_ns": 430524103715000,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 55448,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430523980388000,
+          "kernel_end_ns": 430524104590200,
+          "thread_cpu_ns": 125000000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 123306300,
+      "sum_thread_cpu_ns": 500000000,
+      "cpu_time_to_wall_ratio": 3.759226080608333
+    },
+    {
+      "layout": "stride_16",
+      "repetition": 2,
+      "stride_elements": 16,
+      "spacing_bytes": 128,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 130845300,
+      "aggregate_ns_per_update": 0.54518875,
+      "elapsed_ns_per_thread_iteration": 2.180755,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 103,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        16,
+        32,
+        48
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319936,
+        2007877320064,
+        2007877320192
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083124,
+        31373083126,
+        31373083128
+      ],
+      "relative_cache_lines": [
+        0,
+        2,
+        4,
+        6
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 51992,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430524131252100,
+          "kernel_end_ns": 430524261934600,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 34780,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430524131132500,
+          "kernel_end_ns": 430524255221800,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 37484,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430524131155900,
+          "kernel_end_ns": 430524254226000,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 52848,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430524131103300,
+          "kernel_end_ns": 430524257544000,
+          "thread_cpu_ns": 125000000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 122973900,
+      "sum_thread_cpu_ns": 500000000,
+      "cpu_time_to_wall_ratio": 3.821306535274863
+    },
+    {
+      "layout": "private",
+      "repetition": 2,
+      "stride_elements": 8,
+      "spacing_bytes": 64,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 58753700,
+      "aggregate_ns_per_update": 0.24480708333333334,
+      "elapsed_ns_per_thread_iteration": 0.9792283333333334,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 52,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        8,
+        16,
+        24
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319872,
+        2007877319936,
+        2007877320000
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083123,
+        31373083124,
+        31373083125
+      ],
+      "relative_cache_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 39840,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430524281417300,
+          "kernel_end_ns": 430524340004800,
+          "thread_cpu_ns": 46875000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 55052,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430524281318900,
+          "kernel_end_ns": 430524336098000,
+          "thread_cpu_ns": 46875000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 29576,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430524281340500,
+          "kernel_end_ns": 430524335586500,
+          "thread_cpu_ns": 46875000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 67716,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430524281272100,
+          "kernel_end_ns": 430524336053500,
+          "thread_cpu_ns": 62500000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 54169200,
+      "sum_thread_cpu_ns": 203125000,
+      "cpu_time_to_wall_ratio": 3.457229076636876
+    },
+    {
+      "layout": "stride_1",
+      "repetition": 2,
+      "stride_elements": 1,
+      "spacing_bytes": 8,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 145349200,
+      "aggregate_ns_per_update": 0.6056216666666666,
+      "elapsed_ns_per_thread_iteration": 2.4224866666666665,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 146,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319816,
+        2007877319824,
+        2007877319832
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083122,
+        31373083122,
+        31373083122
+      ],
+      "relative_cache_lines": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 39748,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430524359963300,
+          "kernel_end_ns": 430524501707100,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 55300,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430524359999600,
+          "kernel_end_ns": 430524505261900,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 20892,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430524360042400,
+          "kernel_end_ns": 430524495819500,
+          "thread_cpu_ns": 125000000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 32356,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430524359926600,
+          "kernel_end_ns": 430524500294200,
+          "thread_cpu_ns": 109375000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 135777100,
+      "sum_thread_cpu_ns": 515625000,
+      "cpu_time_to_wall_ratio": 3.547491145462101
+    },
+    {
+      "layout": "stride_4",
+      "repetition": 2,
+      "stride_elements": 4,
+      "spacing_bytes": 32,
+      "iterations_per_thread": 60000000,
+      "total_updates": 240000000,
+      "elapsed_ns": 142453600,
+      "aggregate_ns_per_update": 0.5935566666666666,
+      "elapsed_ns_per_thread_iteration": 2.3742266666666665,
+      "context_switches": {
+        "voluntary": null,
+        "involuntary": null,
+        "total": 78,
+        "source": "psutil Windows total; resource unavailable"
+      },
+      "buffer_address": 2007877319808,
+      "alignment_bytes": 128,
+      "slot_indices": [
+        0,
+        4,
+        8,
+        12
+      ],
+      "slot_addresses": [
+        2007877319808,
+        2007877319840,
+        2007877319872,
+        2007877319904
+      ],
+      "cache_line_indices": [
+        31373083122,
+        31373083122,
+        31373083123,
+        31373083123
+      ],
+      "relative_cache_lines": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "final_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "expected_values": [
+        11728436330833416448,
+        14589801440730549504,
+        278312573438284032,
+        11708582284052155648
+      ],
+      "parity_passed": true,
+      "untouched_slots_passed": true,
+      "workers": [
+        {
+          "thread": 0,
+          "native_thread_id": 19124,
+          "logical_cpu": 0,
+          "affinity_mask": 1,
+          "affinity_applied": true,
+          "seed": 717810019771725877,
+          "kernel_start_ns": 430524526472000,
+          "kernel_end_ns": 430524668859400,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 1,
+          "native_thread_id": 28860,
+          "logical_cpu": 2,
+          "affinity_mask": 4,
+          "affinity_applied": true,
+          "seed": 3424965756971044384,
+          "kernel_start_ns": 430524526506300,
+          "kernel_end_ns": 430524664888200,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 2,
+          "native_thread_id": 31548,
+          "logical_cpu": 4,
+          "affinity_mask": 16,
+          "affinity_applied": true,
+          "seed": 14499890255751242485,
+          "kernel_start_ns": 430524526528600,
+          "kernel_end_ns": 430524661566400,
+          "thread_cpu_ns": 140625000
+        },
+        {
+          "thread": 3,
+          "native_thread_id": 33328,
+          "logical_cpu": 6,
+          "affinity_mask": 64,
+          "affinity_applied": true,
+          "seed": 18085143842637287777,
+          "kernel_start_ns": 430524526437400,
+          "kernel_end_ns": 430524666359700,
+          "thread_cpu_ns": 140625000
+        }
+      ],
+      "all_four_kernel_intervals_overlap_ns": 135037800,
+      "sum_thread_cpu_ns": 562500000,
+      "cpu_time_to_wall_ratio": 3.9486541582662706
     }
   ],
   "summary": {
     "stride_1": {
-      "median_elapsed_ns": 137933000,
-      "min_elapsed_ns": 134114000,
-      "max_elapsed_ns": 139052800,
-      "aggregate_ns_per_update": 0.5747208333333333,
-      "elapsed_ns_per_thread_iteration": 2.2988833333333334,
-      "representative_repetition": 1
+      "median_elapsed_ns": 145349200,
+      "min_elapsed_ns": 140952000,
+      "max_elapsed_ns": 154553600,
+      "aggregate_ns_per_update": 0.6056216666666666,
+      "elapsed_ns_per_thread_iteration": 2.4224866666666665,
+      "representative_repetition": 2
     },
     "stride_4": {
-      "median_elapsed_ns": 138060800,
-      "min_elapsed_ns": 132359600,
-      "max_elapsed_ns": 163694800,
-      "aggregate_ns_per_update": 0.5752533333333333,
-      "elapsed_ns_per_thread_iteration": 2.301013333333333,
+      "median_elapsed_ns": 146501600,
+      "min_elapsed_ns": 142453600,
+      "max_elapsed_ns": 156021400,
+      "aggregate_ns_per_update": 0.6104233333333333,
+      "elapsed_ns_per_thread_iteration": 2.4416933333333333,
       "representative_repetition": 1
     },
     "stride_8": {
-      "median_elapsed_ns": 127706900,
-      "min_elapsed_ns": 124458200,
-      "max_elapsed_ns": 130620100,
-      "aggregate_ns_per_update": 0.5321120833333334,
-      "elapsed_ns_per_thread_iteration": 2.1284483333333335,
+      "median_elapsed_ns": 131199300,
+      "min_elapsed_ns": 131171100,
+      "max_elapsed_ns": 133006100,
+      "aggregate_ns_per_update": 0.54666375,
+      "elapsed_ns_per_thread_iteration": 2.186655,
       "representative_repetition": 1
     },
     "stride_16": {
-      "median_elapsed_ns": 127770900,
-      "min_elapsed_ns": 123486800,
-      "max_elapsed_ns": 132317400,
-      "aggregate_ns_per_update": 0.53237875,
-      "elapsed_ns_per_thread_iteration": 2.129515,
-      "representative_repetition": 1
+      "median_elapsed_ns": 130845300,
+      "min_elapsed_ns": 130784700,
+      "max_elapsed_ns": 157739600,
+      "aggregate_ns_per_update": 0.54518875,
+      "elapsed_ns_per_thread_iteration": 2.180755,
+      "representative_repetition": 2
     },
     "private": {
-      "median_elapsed_ns": 56198800,
-      "min_elapsed_ns": 54860100,
-      "max_elapsed_ns": 59055200,
-      "aggregate_ns_per_update": 0.23416166666666666,
-      "elapsed_ns_per_thread_iteration": 0.9366466666666666,
+      "median_elapsed_ns": 58820900,
+      "min_elapsed_ns": 58753700,
+      "max_elapsed_ns": 65203100,
+      "aggregate_ns_per_update": 0.24508708333333334,
+      "elapsed_ns_per_thread_iteration": 0.9803483333333334,
       "representative_repetition": 0
     },
-    "slowdown_stride1_over_stride8": 1.0800747649500535,
-    "ratio_stride8_over_stride16": 0.9994991034734826
+    "slowdown_stride1_over_stride8": 1.1078504229824397,
+    "ratio_stride8_over_stride16": 1.0027054850269745
   },
   "llvm_audit": {
     "passed": true,
