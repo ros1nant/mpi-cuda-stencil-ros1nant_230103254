@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+cache_line_false_sharing/smoke-output/
+cache-line-false-sharing-ros1nant/
+cache-line-false-sharing-ros1nant_230103254.zip
+cache_line_false_sharing_230103254_results.zip

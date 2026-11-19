@@ -1,0 +1,3 @@
+# Preserve exact evidence bytes and manifest hashes across platforms.
+cache_line_false_sharing/** -text whitespace=cr-at-eol
+*.md whitespace=-blank-at-eol,cr-at-eol
