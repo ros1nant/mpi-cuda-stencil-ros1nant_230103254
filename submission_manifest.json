@@ -1,0 +1,91 @@
+{
+  "github_username": "ros1nant",
+  "gpu_uuid": "GPU-1e1891a5-92b8-49c3-77ee-7ff04727ceae",
+  "instance_seed": 16467635541297678563,
+  "mpi_ranks": 4,
+  "cart_dims": [
+    2,
+    2
+  ],
+  "steps": 400,
+  "kappa_max": 0.23999962497115201,
+  "dx": 0.001949317738791423,
+  "dy": 0.001949317738791423,
+  "dt": 3.166537987068644e-06,
+  "dt_max": 3.9581724838358046e-06,
+  "ptx_instruction_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "parity_max_diff": 0.0,
+  "serialized_ms": 2093.285911,
+  "overlapped_ms": 1995.9549650000001,
+  "cuda_event_timings_ms": {
+    "serialized": {
+      "interior_cuda_ms": 92.09987167268991,
+      "boundary_cuda_ms": 952.9671361725777
+    },
+    "overlapped": {
+      "interior_cuda_ms": 205.0601924546063,
+      "boundary_cuda_ms": 895.006206298247
+    }
+  },
+  "energy_and_residual": {
+    "serialized": [
+      {
+        "step": 0,
+        "energy": 0.3586208017683207,
+        "l2_residual": 0.0
+      },
+      {
+        "step": 100,
+        "energy": 0.358275588396475,
+        "l2_residual": 0.008981464699315959
+      },
+      {
+        "step": 200,
+        "energy": 0.3580774875949777,
+        "l2_residual": 0.00841390602505523
+      },
+      {
+        "step": 300,
+        "energy": 0.35790784710221424,
+        "l2_residual": 0.008229913583183675
+      },
+      {
+        "step": 400,
+        "energy": 0.35775234128010297,
+        "l2_residual": 0.008122209201571489
+      }
+    ],
+    "overlapped": [
+      {
+        "step": 0,
+        "energy": 0.3586208017683207,
+        "l2_residual": 0.0
+      },
+      {
+        "step": 100,
+        "energy": 0.358275588396475,
+        "l2_residual": 0.008981464699315959
+      },
+      {
+        "step": 200,
+        "energy": 0.3580774875949777,
+        "l2_residual": 0.00841390602505523
+      },
+      {
+        "step": 300,
+        "energy": 0.35790784710221424,
+        "l2_residual": 0.008229913583183675
+      },
+      {
+        "step": 400,
+        "energy": 0.35775234128010297,
+        "l2_residual": 0.008122209201571489
+      }
+    ]
+  }
+}
